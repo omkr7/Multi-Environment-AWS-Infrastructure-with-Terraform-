@@ -1,4 +1,4 @@
-# Multi-Environment AWS Infrastructure with Terraform-   writen by AI :)
+# Multi-Environment AWS Infrastructure with Terraform-   
 
 Reusable Terraform module deploys isolated dev and prod stacks with a VPC, public/private subnets in two AZs, one NAT Gateway, ALB, private EC2 Auto Scaling Group, IAM instance role and security groups.
 
@@ -68,3 +68,4 @@ cd ../../bootstrap && terraform destroy
 - The ALB is internet-facing and serves HTTP for demonstration. Use HTTPS with ACM and a domain for a real deployment.
 - DynamoDB-based S3 state locking is supported by the AWS backend but is deprecated in newer Terraform releases in favor of S3 native lockfiles. This project retains DynamoDB locking to match the stated project requirement. Check current Terraform backend documentation before upgrading.
 - Do not commit AWS credentials, state files, `.terraform/`, or private keys to GitHub.
+writen by AI :)
