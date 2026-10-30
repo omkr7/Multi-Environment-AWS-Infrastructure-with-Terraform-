@@ -1,4 +1,4 @@
-# Multi-Environment AWS Infrastructure with Terraform
+# Multi-Environment AWS Infrastructure with Terraform-   writen by AI :)
 
 Reusable Terraform module deploys isolated dev and prod stacks with a VPC, public/private subnets in two AZs, one NAT Gateway, ALB, private EC2 Auto Scaling Group, IAM instance role and security groups.
 
